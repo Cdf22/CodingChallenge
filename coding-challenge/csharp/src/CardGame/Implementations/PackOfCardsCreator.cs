@@ -9,6 +9,9 @@ namespace CodingChallenge.CardGame.Implementations
 {
     public class PackOfCardsCreator : IPackOfCardsCreator
     {
-        public IPackOfCards Create() => throw new NotImplementedException();
+        public IPackOfCards Create()
+        {
+            return new PackOfCards();
+        }
     }
 }
