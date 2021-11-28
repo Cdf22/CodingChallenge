@@ -1,4 +1,5 @@
 ﻿using System;
+using CodingChallenge.CardGame.enums;
 
 namespace CodingChallenge.CardGame
 {
