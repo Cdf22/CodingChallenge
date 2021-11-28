@@ -1,4 +1,4 @@
-﻿namespace CodingChallenge.CardGame
+﻿namespace CodingChallenge.CardGame.interfaces
 {
     public interface IPackOfCardsCreator
     {

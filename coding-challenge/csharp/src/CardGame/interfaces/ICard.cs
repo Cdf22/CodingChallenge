@@ -1,7 +1,7 @@
 ﻿using System;
 using CodingChallenge.CardGame.enums;
 
-namespace CodingChallenge.CardGame
+namespace CodingChallenge.CardGame.interfaces
 {
     public interface ICard : IEquatable<ICard>
     {

@@ -1,13 +1,21 @@
 ﻿using System;
 using CodingChallenge.CardGame.enums;
+using CodingChallenge.CardGame.interfaces;
 
 namespace CodingChallenge.CardGame
 {
     public class Card : ICard
     {
-        public Suit Suit => throw new NotImplementedException();
+        public Card(Suit suit, Value value)
+        {
+            Suit = suit;
+            Value = value;
+        }
 
-        public Value Value => throw new NotImplementedException();
+
+        public Suit Suit { get;}
+
+        public Value Value { get; }
 
         public bool Equals(ICard other) => throw new NotImplementedException();
     }

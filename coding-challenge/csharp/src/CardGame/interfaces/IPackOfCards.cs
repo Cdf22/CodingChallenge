@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CodingChallenge.CardGame
+namespace CodingChallenge.CardGame.interfaces
 {
     public interface IPackOfCards : IReadOnlyCollection<ICard>
     {
