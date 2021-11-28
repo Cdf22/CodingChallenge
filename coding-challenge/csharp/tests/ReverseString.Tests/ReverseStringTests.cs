@@ -32,7 +32,7 @@ namespace CodingChallenge.ReversingString.Tests
         public void ReverseString_WithInvalidParameter_ShouldThrowArgumentException()
         {
             // Arrange
-            var inputString = "  ";
+            var inputString = "";
 
             // Act and assert
             Assert.Throws<System.ArgumentException>(() => StringUtilities.Reverse(inputString));
