@@ -55,14 +55,14 @@ namespace CodingChallenge.CardGame.Tests
         }
 
         [Test]
-        public void GetEnumerator_ReturnsIEnumerator<ICard>()
+        public void GetEnumerator_ReturnsIEnumerator()
         {
             // Arrange
             var packCreator = new PackOfCardsCreator();
             IPackOfCards pack = packCreator.Create();
 
             // Act and assert
-            Assert.IsInstanceOf<ICard>(pack.GetEnumerator());
+            Assert.IsInstanceOf<IEnumerator<Card>>(pack.GetEnumerator());
         }
     }
 }
